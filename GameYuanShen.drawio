@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T05:39:01.979Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="16.4.5" etag="Rc3gbi6G4IcI7L5fM7Jk" type="github"><diagram id="yyS8W1nWAD_pVTTX90cR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-07T05:41:29.912Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="MHhyP--p8WPlwX7AzExj" version="16.4.5" type="github">
+  <diagram id="yyS8W1nWAD_pVTTX90cR" name="Page-1">
+    <mxGraphModel dx="1206" dy="496" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vNo2usWcUudqKrF7uBsM-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="330" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="vNo2usWcUudqKrF7uBsM-2" value="&lt;font style=&quot;font-size: 24px&quot;&gt;地圖細節：mesh，細節&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vNo2usWcUudqKrF7uBsM-3" value="戰鬥機制：自然反映" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="170" y="150" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vNo2usWcUudqKrF7uBsM-4" value="3d動畫or模型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="170" y="240" width="280" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
