@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T03:10:43.435Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" version="16.5.6" etag="TMiSIGv2X1YTvh3qTo4U" type="github"><diagram id="ykcUhZipcGc9EWoOXavQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-15T03:17:41.173Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="NMsiX9xSoDSBgNcpzhq_" version="16.5.6" type="github">
+  <diagram id="ykcUhZipcGc9EWoOXavQ" name="Page-1">
+    <mxGraphModel dx="3129" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bWzF54Lzfph5u9QYOFwb-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="20" width="613" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="bWzF54Lzfph5u9QYOFwb-2" value="&lt;font style=&quot;font-size: 48px&quot;&gt;ftp方案：&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="40" width="243" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bWzF54Lzfph5u9QYOFwb-3" value="下載文件（url）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="130" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bWzF54Lzfph5u9QYOFwb-4" value="移動文件（url）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="220" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bWzF54Lzfph5u9QYOFwb-5" value="解壓縮（.zip）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="300" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bWzF54Lzfph5u9QYOFwb-6" value="拆包（xml）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="380" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bWzF54Lzfph5u9QYOFwb-7" value="本地發包" style="rounded=1;whiteSpace=wrap;html=1;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="470" width="450" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bWzF54Lzfph5u9QYOFwb-8" value="廠商的服務器" style="ellipse;whiteSpace=wrap;html=1;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="235" width="290" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="bWzF54Lzfph5u9QYOFwb-9" value="全家系統" style="ellipse;whiteSpace=wrap;html=1;fontSize=48;" vertex="1" parent="1">
+          <mxGeometry x="380" y="235" width="270" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="bWzF54Lzfph5u9QYOFwb-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=48;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bWzF54Lzfph5u9QYOFwb-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="380" as="sourcePoint" />
+            <mxPoint x="-410" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWzF54Lzfph5u9QYOFwb-12" value="" style="endArrow=classic;html=1;rounded=0;fontSize=48;exitX=1;exitY=0.448;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.007;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bWzF54Lzfph5u9QYOFwb-1" target="bWzF54Lzfph5u9QYOFwb-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="380" as="sourcePoint" />
+            <mxPoint x="-140" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
