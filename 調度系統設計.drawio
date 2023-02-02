@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T05:10:50.013Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="UJWSFNRhlPz-YirVMkLs" version="20.8.14" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-02T05:15:45.415Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="V35RgylFq6TS7mVzNZLH" version="20.8.14" type="github">
   <diagram name="系統開發流程" id="mCIZsBK1J4OM7ZNtnRXF">
     <mxGraphModel dx="2427" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,25 +108,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_cTSjQU-mbcuw32wQxp6-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="170" width="330" height="400" as="geometry" />
+          <mxGeometry x="-420" y="170" width="500" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="_cTSjQU-mbcuw32wQxp6-35" value="調度系統" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="175" width="130" height="30" as="geometry" />
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-35" value="調度系統模塊劃分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-305" y="170" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_cTSjQU-mbcuw32wQxp6-37" value="路徑規劃" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="360" width="210" height="60" as="geometry" />
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-37" value="路徑規劃（計算從地圖的A跑到B的路徑）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="360" width="470" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_cTSjQU-mbcuw32wQxp6-38" value="地圖管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="225" width="210" height="60" as="geometry" />
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-38" value="地圖管理（啓動前設定好圖資）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="225" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_cTSjQU-mbcuw32wQxp6-39" value="agv管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="290" width="210" height="60" as="geometry" />
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-39" value="agv管理（啓動時進行通訊並初始化agv狀態）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-413" y="290" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_cTSjQU-mbcuw32wQxp6-40" value="交通管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="430" width="210" height="60" as="geometry" />
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-40" value="交通管理（多個agv調度時進行攔截和疏通）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-415" y="430" width="485" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_cTSjQU-mbcuw32wQxp6-42" value="agv通訊管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="500" width="210" height="60" as="geometry" />
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-42" value="agv通訊管理：local network的通訊模塊" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="580" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-43" value="任務管理（跑動的目的是執行任務，對任務進行管理排程）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="500" width="453" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
