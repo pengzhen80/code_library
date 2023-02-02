@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T05:05:43.216Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="tv8R4oF62GTraHfub_C0" version="20.8.14" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-02T05:09:01.953Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="fkNhuuAqGH1Xl6c2U8Y-" version="20.8.14" type="github">
   <diagram name="系統開發流程" id="mCIZsBK1J4OM7ZNtnRXF">
     <mxGraphModel dx="1600" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,6 +48,64 @@
         </mxCell>
         <mxCell id="_cTSjQU-mbcuw32wQxp6-13" value="多個agv交互調度&lt;br&gt;（任務有交集or路徑有重疊）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="75" y="650" width="325" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-15" value="安全問題列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="190" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-16" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="910" y="240" width="510" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=24;" vertex="1" parent="_cTSjQU-mbcuw32wQxp6-16">
+          <mxGeometry width="510" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-18" value="問題" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=24;" vertex="1" parent="_cTSjQU-mbcuw32wQxp6-17">
+          <mxGeometry width="180" height="80" as="geometry">
+            <mxRectangle width="180" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-19" value="解決方案" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=24;" vertex="1" parent="_cTSjQU-mbcuw32wQxp6-17">
+          <mxGeometry x="180" width="330" height="80" as="geometry">
+            <mxRectangle width="330" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-21" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=24;" vertex="1" parent="_cTSjQU-mbcuw32wQxp6-16">
+          <mxGeometry y="80" width="510" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-22" value="agv發生碰撞" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=24;" vertex="1" parent="_cTSjQU-mbcuw32wQxp6-21">
+          <mxGeometry width="180" height="80" as="geometry">
+            <mxRectangle width="180" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-23" value="停機" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=24;" vertex="1" parent="_cTSjQU-mbcuw32wQxp6-21">
+          <mxGeometry x="180" width="330" height="80" as="geometry">
+            <mxRectangle width="330" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=24;" vertex="1" parent="_cTSjQU-mbcuw32wQxp6-16">
+          <mxGeometry y="160" width="510" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-26" value="agv速度異常" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=24;" vertex="1" parent="_cTSjQU-mbcuw32wQxp6-25">
+          <mxGeometry width="180" height="80" as="geometry">
+            <mxRectangle width="180" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-27" value="停機" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=24;" vertex="1" parent="_cTSjQU-mbcuw32wQxp6-25">
+          <mxGeometry x="180" width="330" height="80" as="geometry">
+            <mxRectangle width="330" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=24;" vertex="1" parent="_cTSjQU-mbcuw32wQxp6-16">
+          <mxGeometry y="240" width="510" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-30" value="agv斷線" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=24;" vertex="1" parent="_cTSjQU-mbcuw32wQxp6-29">
+          <mxGeometry width="180" height="80" as="geometry">
+            <mxRectangle width="180" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_cTSjQU-mbcuw32wQxp6-31" value="agv設定未斷線自動進入待機" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=24;" vertex="1" parent="_cTSjQU-mbcuw32wQxp6-29">
+          <mxGeometry x="180" width="330" height="80" as="geometry">
+            <mxRectangle width="330" height="80" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
